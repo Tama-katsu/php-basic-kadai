@@ -18,7 +18,7 @@
       } else {
         echo '降順にソートします';
         echo '<br>';
-        asort($array);
+        rsort($array);
       };
       foreach ($array as $value) {
         echo $value;
